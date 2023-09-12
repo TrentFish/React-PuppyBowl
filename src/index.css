@@ -1,0 +1,20 @@
+body{
+  background-color: lavender;
+}
+
+nav{
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav a{
+  color: goldenrod;
+  font-size: large;
+  padding: 0.3rem;
+}
+
+nav a.selected{
+  border: 2px solid red;
+}
